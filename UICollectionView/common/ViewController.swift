@@ -46,16 +46,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         button.configuration!.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 8.0, bottom: 0, trailing: 0)
         return button
     }()
-    
-//    let filterByPopularityButton: UIButton = {
-//        let button = UIButton(type: .system)
-//        button.setTitle("Most Popular", for: .normal)
-//        button.setImage(UIImage(systemName: "arrow.up.arrow.down")?.withTintColor(.red, renderingMode: .alwaysOriginal), for: .normal)
-//        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 0)  // Расположение изображения справа от текста
-//        button.tintColor = .red
-//        
-//        return button
-//    }()
 
     private let sortByLabel: UILabel = {
         let label = UILabel()
@@ -85,7 +75,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             horizontalCollectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: 20),
             horizontalCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             horizontalCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            horizontalCollectionView.heightAnchor.constraint(equalToConstant: 200)
+            horizontalCollectionView.heightAnchor.constraint(equalToConstant: 220)
         ])
         
         setupSortByLabel()

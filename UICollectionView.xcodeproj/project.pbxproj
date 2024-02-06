@@ -15,7 +15,6 @@
 		A141C5ED2B6FF1400058C213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A141C5EB2B6FF1400058C213 /* LaunchScreen.storyboard */; };
 		A141C5F92B6FF1F20058C213 /* CustomCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141C5F82B6FF1F20058C213 /* CustomCVCell.swift */; };
 		A141C5FC2B6FF7470058C213 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A141C5FB2B6FF7470058C213 /* SnapKit */; };
-		A141C5FE2B6FF9830058C213 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141C5FD2B6FF9820058C213 /* DataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 		A141C5EC2B6FF1400058C213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A141C5EE2B6FF1400058C213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A141C5F82B6FF1F20058C213 /* CustomCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCVCell.swift; sourceTree = "<group>"; };
-		A141C5FD2B6FF9820058C213 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				A141C5F82B6FF1F20058C213 /* CustomCVCell.swift */,
-				A141C5FD2B6FF9820058C213 /* DataView.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -183,7 +180,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A141C5FE2B6FF9830058C213 /* DataView.swift in Sources */,
 				A141C5E22B6FF13E0058C213 /* ViewController.swift in Sources */,
 				A141C5DE2B6FF13E0058C213 /* AppDelegate.swift in Sources */,
 				A141C5F92B6FF1F20058C213 /* CustomCVCell.swift in Sources */,
